@@ -2,14 +2,7 @@ package ctl1;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.logging.Logger;
-
-import javax.swing.JPanel;
-import javax.swing.JToggleButton;
-
-import ctl1.help.MyGC;
 
 public class ButtonPanel extends BorderPanel
 {

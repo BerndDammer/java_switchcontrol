@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="ctl1/MainFrameOld.java|ctl1/IButtonActivatorOld.java|ctl1/MidiSelector.java" kind="src" output="target/classes" path="src/main/java">
+	<classpathentry excluding="ctl1/MainFrameOld.java|ctl1/IButtonActivatorOld.java|ctl1/MidiSelector.java|ctl1/MidiChannelButton.java" kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>

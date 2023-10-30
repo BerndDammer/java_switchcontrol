@@ -4,7 +4,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.util.logging.Logger;
 
-import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
@@ -15,8 +14,6 @@ public class MainFrame extends JFrame2 implements Runnable
     private static final long serialVersionUID = 1L;
     private final Logger logger = Logger.getLogger(this.getClass().getCanonicalName());
     private final MyGC gc = new MyGC();
-    private final JButton[] buttons = new JButton[8];
-//    private final MidiSelector midiSelector = new MidiSelector();
     private final ButtonWorker buttonWorker = new ButtonWorker();
 
 

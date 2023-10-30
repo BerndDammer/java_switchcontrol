@@ -62,11 +62,9 @@ public class JFrame2 extends JFrame implements WindowListener
         if (on)
         {
             pack();
-            int sparex, sparey;
             if (MAX)
             {
                 setUndecorated(true);
-                sparex = sparey = 0;
                 setLocation(0, 0);
                 setExtendedState(MAXIMIZED_BOTH);
             } else

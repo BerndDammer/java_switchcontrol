@@ -8,7 +8,7 @@ import javax.swing.JToggleButton;
 
 class MidiButton extends JToggleButton implements ActionListener
 {
-    private static final Logger logger = Logger.getLogger(JToggleButton.class.getCanonicalName());
+    private static final Logger logger = Logger.getLogger(MidiButton.class.getCanonicalName());
 
     private static final long serialVersionUID = 1L;
     private final EButtons midiCode;
